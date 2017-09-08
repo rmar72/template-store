@@ -3,7 +3,7 @@
     "id": 1,
     "name":"Blue Theme",
     "description":"Elegant Blue theme guaranteed to attract clients in a mellow fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {
@@ -28,7 +28,7 @@
     "id": 2,
     "name":"Gray Theme",
     "description":"Professional Gray theme guaranteed to attract clients in a wise fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {
@@ -41,7 +41,7 @@
     "id": 3,
     "name":"Green Theme",
     "description":"Stylistic Green theme guaranteed to attract clients in a meaningful fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {
@@ -54,7 +54,7 @@
     "id": 4,
     "name":"Red Theme",
     "description":"Eye-catching theme guaranteed to attract clients in a powerful fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {
@@ -67,7 +67,7 @@
     "id": 5,
     "name":"Orange Theme",
     "description":"Vivid Orange theme guaranteed to attract clients in a fun fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {
@@ -80,7 +80,7 @@
     "id": 6,
     "name":"Purple Theme",
     "description":"Seductive Purple theme guaranteed to attract clients in a personal fashion.",
-    "type":"html5",
+    "type":"HTML5",
     "price":"3.99",
     "images":[
       {

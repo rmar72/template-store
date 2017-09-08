@@ -2,13 +2,28 @@
   <a href="#/templates">Go Back</a>
   <br>
   <div class="col-md-3">
-    <img class="img-full" src="img/blue.jpg">
+    <img class="img-full" ng-src="img/{{mainImg}}">
   </div>
 
   <div class="col-md-8">
-    <h3>Blue Template</h3>
-    <p>LOREMsdfsrgasgasdfn Loerem sdgdgsedgrsfhbgfasfgrsgfaszfsdhbgyrfjtyawsfrhfd</p>
-    <h4>$19.99</h4>
-    BUY IT
+    <h1>{{template.name}}</h1>
+    <p><strong>Description:</strong> <em>{{template.description}}</em></p>
+    <p><strong>Type:</strong> {{template.type}}</p>
+    <h4><strong>Price:</strong> {{template.price}}</h4>
+    <form target="paypal" action="https://www.paypal.com/cgi-bin/webscr" method="post">
+      <!--  specifies buy now button -->
+      <input type="hidden" name="cmd" value="xclick">
+      <input type="hidden" name="business" value="rsolm72@gmail.com">
+      <input type="hidden" name="item_name" value="{{template.name}}">
+      <input type="hidden" name="item_number" value="{{template.id}}">
+      <input type="hidden" name="currency_code" value="USD">
+      <input type="hidden" name="amount" value="{{template.price}}">
+      <input type="hidden" name="no_shipping" value="1">
+      <input type="hidden" name="rm" value="2">
+      <input type="hidden" name="return" value="http://localhost:8000">
+      <input type="hidden" name="cancel_return" value="http://localhost:8000">
+      <input type="image" src="https://www.paypalobjects.com/webstatic/en_US/i/btn/png/btn_addtocart_120x26.png"
+        alt="Add to Cart" name="submit">
+    </form>
   </div>
 </div>
