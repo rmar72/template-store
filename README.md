@@ -1,3 +1,9 @@
+
+<img src="https://github.com/rmar72/template-store/blob/master/app/img/ts1.PNG" />
+
+<img src="https://github.com/rmar72/template-store/blob/master/app/img/ts2.PNG" width="500" />
+
+
 # `angular-seed` — the seed for AngularJS apps
 
 This project is an application skeleton for a typical [AngularJS][angularjs] web app. You can use it
