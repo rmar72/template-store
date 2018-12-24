@@ -1,0 +1,9 @@
+Get app configured
+
+1. npm install
+2. install bower on machine
+3. bower install
+3.5 maybe will have to run bower install bootstrap@3
+
+then finally 
+run with npm start
